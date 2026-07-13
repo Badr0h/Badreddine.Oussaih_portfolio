@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "Badreddine Oussaih — Développeur Full-Stack",
+    "description": "Portfolio de Badreddine Oussaih, développeur full-stack à Casablanca. ZenithConvert, Serlimpin, Recommerce, Jazzablanca. Spring Boot, Angular, Next.js."
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "about": "À propos",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "title": "Développeur Full-Stack",
+    "subtitle": "Je conçois et déploie des applications web robustes et sécurisées — APIs Spring Boot, interfaces Angular & Next.js, et produits SaaS en production.",
+    "ctaProjects": "Voir mes projets",
+    "ctaContact": "Me contacter",
+    "ctaCv": "Télécharger le CV",
+    "available": "Disponible pour missions freelance & opportunités"
+  },
+  "featured": {
+    "label": "Projet vedette",
+    "outcome": "Plateforme SaaS live de conversion de données propulsée par GPT-4.",
+    "viewCaseStudy": "Voir l'étude de cas",
+    "viewDemo": "Démo live",
+    "viewCode": "Code source"
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Mes réalisations principales — SaaS, sites clients et applications full-stack.",
+    "featured": "Phare",
+    "viewCaseStudy": "Étude de cas",
+    "viewDemo": "Démo",
+    "viewCode": "Code",
+    "allProjects": "Tous les projets",
+    "otherProjects": "Autres projets"
+  },
+  "experience": {
+    "title": "Expérience",
+    "subtitle": "Missions freelance et projets fondateur en production."
+  },
+  "skills": {
+    "title": "Compétences",
+    "subtitle": "Technologies que j'utilise au quotidien pour livrer des produits en production.",
+    "languages": "Langages",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "devops": "DevOps & Infra",
+    "tools": "Outils"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "subtitle": "Formations validées sur Coursera en développement Java full-stack.",
+    "viewOnLinkedIn": "Voir sur LinkedIn",
+    "viewAllLinkedIn": "Toutes les certifications sur LinkedIn"
+  },
+  "about": {
+    "title": "À propos",
+    "subtitle": "Qui je suis et ce que je fais."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Un projet, une opportunité ? Écrivez-moi ou retrouvez-moi sur mes plateformes.",
+    "email": "Email",
+    "platforms": "Plateformes",
+    "downloadCv": "Télécharger le CV",
+    "copyEmail": "Copier l'email",
+    "sendEmail": "Envoyer un email",
+    "copied": "Copié !"
+  },
+  "footer": {
+    "builtWith": "Construit avec Next.js & Tailwind CSS",
+    "rights": "Tous droits réservés."
+  },
+  "caseStudy": {
+    "back": "Retour aux projets",
+    "problem": "Problème",
+    "role": "Mon rôle",
+    "stack": "Stack technique",
+    "approach": "Approche",
+    "result": "Résultat",
+    "links": "Liens",
+    "liveDemo": "Démo live",
+    "sourceCode": "Code source",
+    "notFound": "Projet introuvable",
+    "notFoundDesc": "Ce projet n'existe pas ou a été déplacé."
+  },
+  "lang": {
+    "fr": "FR",
+    "en": "EN",
+    "switch": "Changer de langue"
+  }
+}

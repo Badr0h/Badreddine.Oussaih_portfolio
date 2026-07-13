@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "Badreddine Oussaih — Full-Stack Developer",
+    "description": "Portfolio of Badreddine Oussaih, full-stack developer in Casablanca. ZenithConvert, Serlimpin, Recommerce, Jazzablanca. Spring Boot, Angular, Next.js."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "about": "About",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "title": "Full-Stack Developer",
+    "subtitle": "I design and ship robust, secure web applications — Spring Boot APIs, Angular & Next.js frontends, and production-ready SaaS products.",
+    "ctaProjects": "View my projects",
+    "ctaContact": "Get in touch",
+    "ctaCv": "Download CV",
+    "available": "Open to freelance & full-time opportunities"
+  },
+  "featured": {
+    "label": "Featured project",
+    "outcome": "Live SaaS data conversion platform powered by GPT-4.",
+    "viewCaseStudy": "View case study",
+    "viewDemo": "Live demo",
+    "viewCode": "Source code"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "My main work — SaaS products, client sites, and full-stack applications.",
+    "featured": "Featured",
+    "viewCaseStudy": "Case study",
+    "viewDemo": "Demo",
+    "viewCode": "Code",
+    "allProjects": "All projects",
+    "otherProjects": "Other projects"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Freelance missions and founder projects in production."
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I use daily to deliver production-grade products.",
+    "languages": "Languages",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "devops": "DevOps & Infra",
+    "tools": "Tools"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "subtitle": "Coursera-validated training in Java full-stack development.",
+    "viewOnLinkedIn": "View on LinkedIn",
+    "viewAllLinkedIn": "All certifications on LinkedIn"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Who I am and what I do."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project or opportunity? Reach out or find me on my platforms.",
+    "email": "Email",
+    "platforms": "Platforms",
+    "downloadCv": "Download CV",
+    "copyEmail": "Copy email",
+    "sendEmail": "Send email",
+    "copied": "Copied!"
+  },
+  "footer": {
+    "builtWith": "Built with Next.js & Tailwind CSS",
+    "rights": "All rights reserved."
+  },
+  "caseStudy": {
+    "back": "Back to projects",
+    "problem": "Problem",
+    "role": "My role",
+    "stack": "Tech stack",
+    "approach": "Approach",
+    "result": "Result",
+    "links": "Links",
+    "liveDemo": "Live demo",
+    "sourceCode": "Source code",
+    "notFound": "Project not found",
+    "notFoundDesc": "This project doesn't exist or has been moved."
+  },
+  "lang": {
+    "fr": "FR",
+    "en": "EN",
+    "switch": "Switch language"
+  }
+}
