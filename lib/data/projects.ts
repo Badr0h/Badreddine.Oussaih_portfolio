@@ -42,6 +42,12 @@ const recommerceImages = [
   "/images/projects/recommerce/screenshot-05.webp",
 ];
 
+const comptyxImages = [
+  "/images/projects/comptyx/screenshot-01.webp",
+  "/images/projects/comptyx/screenshot-02.webp",
+  "/images/projects/comptyx/screenshot-03.webp",
+];
+
 export const projects: Project[] = [
   {
     slug: "zenithconvert",
@@ -93,9 +99,59 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "serlimpin",
+    slug: "comptyx",
     featured: true,
     featuredOrder: 2,
+    title: { fr: "Comptyx", en: "Comptyx" },
+    tagline: {
+      fr: "Comptabilité intelligente & extraction de documents",
+      en: "Smart accounting & document extraction",
+    },
+    description: {
+      fr: "SaaS live de comptabilité — factures entrantes, écritures équilibrées, export FEC, DATEV, SAF-T, Sage, QuickBooks ou Xero.",
+      en: "Live accounting SaaS — invoices in, balanced journal entries out, export to FEC, DATEV, SAF-T, Sage, QuickBooks, or Xero.",
+    },
+    outcome: {
+      fr: "Workstation comptable live avec 6 plans comptables nationaux, extraction IA de factures et exports ERP natifs.",
+      en: "Live accounting workstation with 6 national charts of accounts, AI invoice extraction, and native ERP exports.",
+    },
+    stack: [
+      "Spring Boot 3",
+      "Spring Security",
+      "Angular 19",
+      "PostgreSQL",
+      "OpenAI API",
+      "Docker",
+      "Vercel",
+    ],
+    accentColor: "#0F766E",
+    thumbnail: comptyxImages[0],
+    images: comptyxImages,
+    demo: "https://www.comptyx.com/",
+    github: "https://github.com/Badr0h",
+    caseStudy: {
+      problem: {
+        fr: "Les cabinets et PME perdent des heures à saisir manuellement factures fournisseurs et clients, mapper les comptes et vérifier l'équilibre débit/crédit avant import ERP.",
+        en: "Firms and SMBs lose hours manually entering supplier and customer invoices, mapping accounts, and verifying debit/credit balance before ERP import.",
+      },
+      role: {
+        fr: "Fondateur & développeur full-stack — architecture API sécurisée, extraction documentaire IA, moteur d'écritures comptables multi-pays et exports ERP natifs.",
+        en: "Founder & full-stack developer — secure API architecture, AI document extraction, multi-country journal engine, and native ERP exports.",
+      },
+      approach: {
+        fr: "Upload batch PDF/JPG/PNG, extraction IA par facture, résolution comptes PCG/SKR/PGC/CGNC/US GAAP/IFRS, contrôle d'équilibre avant export, plans Free/Pro/Enterprise.",
+        en: "Batch PDF/JPG/PNG upload, per-invoice AI extraction, PCG/SKR/PGC/CGNC/US GAAP/IFRS account resolution, balance check before export, Free/Pro/Enterprise plans.",
+      },
+      result: {
+        fr: "Application live sur comptyx.com — 5 factures gratuites à l'inscription, écritures équilibrées ou bloquées, exports FEC/DATEV/SAF-T/ContaPlus/Sage/QuickBooks/Xero.",
+        en: "Live application at comptyx.com — 5 free invoices on signup, balanced entries or held back, exports to FEC/DATEV/SAF-T/ContaPlus/Sage/QuickBooks/Xero.",
+      },
+    },
+  },
+  {
+    slug: "serlimpin",
+    featured: true,
+    featuredOrder: 3,
     title: { fr: "Serlimpin S.L.", en: "Serlimpin S.L." },
     tagline: {
       fr: "Site vitrine SEO — Vaciado de pisos Barcelona",
@@ -136,7 +192,7 @@ export const projects: Project[] = [
   {
     slug: "recommerce",
     featured: true,
-    featuredOrder: 3,
+    featuredOrder: 4,
     title: { fr: "Recommerce", en: "Recommerce" },
     tagline: {
       fr: "Plateforme de gestion de commandes",
@@ -185,7 +241,7 @@ export const projects: Project[] = [
   {
     slug: "jazzablanca",
     featured: true,
-    featuredOrder: 4,
+    featuredOrder: 5,
     title: { fr: "Jazzablanca 2027", en: "Jazzablanca 2027" },
     tagline: {
       fr: "Dossier stratégique festival — MÉLANGE",
@@ -221,28 +277,6 @@ export const projects: Project[] = [
         en: "Live landing at jazzablanca.vercel.app — internal reference for sponsor pitches, 2027 planning, and MÉLANGE repositioning.",
       },
     },
-  },
-  {
-    slug: "konta",
-    featured: false,
-    title: { fr: "Konta", en: "Konta" },
-    tagline: {
-      fr: "SaaS comptable propulsé par l'IA",
-      en: "AI-powered accounting SaaS",
-    },
-    description: {
-      fr: "Workstation intelligente : extraction de documents, réconciliation et reporting automatisés.",
-      en: "Smart workstation: document extraction, reconciliation, and automated reporting.",
-    },
-    stack: [
-      "Spring Boot 3.5",
-      "Angular 19",
-      "PostgreSQL",
-      "OpenAI",
-      "Docker",
-    ],
-    accentColor: "#2563EB",
-    github: "https://github.com/Badr0h",
   },
   {
     slug: "sesame",

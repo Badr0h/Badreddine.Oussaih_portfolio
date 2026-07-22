@@ -81,10 +81,10 @@ i18n/                  → routing et navigation next-intl
 ## Sections
 
 1. Hero — positionnement full-stack
-2. Projet vedette — Konta
-3. Projets — grille de 8 projets
+2. Projet vedette — ZenithConvert
+3. Projets — grille de projets (ZenithConvert, Comptyx, Serlimpin…)
 4. Compétences — groupées par catégorie
 5. À propos — bio + liens sociaux
 6. Contact — email + GitHub/LinkedIn
 
-Pages case study : `/fr/projects/konta`, `/en/projects/konta`, etc.
+Pages case study : `/fr/projects/comptyx`, `/en/projects/comptyx`, etc.

@@ -154,6 +154,29 @@ export const profile = {
       ],
     },
     {
+      company: { fr: "Comptyx", en: "Comptyx" },
+      role: {
+        fr: "Développeur Full-Stack & Fondateur (SaaS)",
+        en: "Full-Stack Developer & Founder (SaaS)",
+      },
+      period: {
+        fr: "Jan. 2026 — Aujourd'hui",
+        en: "Jan 2026 — Present",
+      },
+      description: {
+        fr: "Conception et mise en production d'une workstation comptable SaaS : extraction IA de factures, génération d'écritures équilibrées, 6 plans comptables nationaux et exports ERP (FEC, DATEV, SAF-T, Sage, QuickBooks, Xero).",
+        en: "Designed and deployed an accounting SaaS workstation: AI invoice extraction, balanced journal entries, 6 national charts of accounts, and ERP exports (FEC, DATEV, SAF-T, Sage, QuickBooks, Xero).",
+      },
+      stack: [
+        "Spring Boot",
+        "Angular",
+        "PostgreSQL",
+        "OpenAI API",
+        "Docker",
+        "Vercel",
+      ],
+    },
+    {
       company: { fr: "Serlimpin S.L.", en: "Serlimpin S.L." },
       role: {
         fr: "Développeur Web — Site vitrine & SEO",
