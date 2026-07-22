@@ -1,14 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
-import { profile } from "@/lib/data/profile";
+import { useTranslations, useLocale } from "next-intl";
+import { profile, getCvUrl } from "@/lib/data/profile";
+import type { Locale } from "@/lib/data/profile";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function Contact() {
   const t = useTranslations("contact");
+  const locale = useLocale() as Locale;
   const [copied, setCopied] = useState(false);
 
   async function copyEmail() {
@@ -65,9 +67,9 @@ export function Contact() {
                   {t("downloadCv")}
                 </p>
                 <p className="mt-3 flex-1 text-sm text-text-secondary">
-                  PDF · FR/EN
+                  {t("cvFormat")}
                 </p>
-                <Button href={profile.cvUrl} download className="mt-4 w-full">
+                <Button href={getCvUrl(locale)} download className="mt-4 w-full">
                   {t("downloadCv")} ↓
                 </Button>
               </div>

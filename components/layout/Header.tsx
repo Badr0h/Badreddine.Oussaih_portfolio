@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { profile, navSections } from "@/lib/data/profile";
+import { profile, navSections, getCvUrl } from "@/lib/data/profile";
 import type { Locale } from "@/lib/data/profile";
 import { LangSwitch } from "./LangSwitch";
 
@@ -58,7 +58,7 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href={profile.cvUrl}
+            href={getCvUrl(locale)}
             download
             className="hidden rounded-lg border border-border px-3 py-1.5 font-mono text-xs text-text-secondary transition-colors hover:border-accent hover:text-accent sm:inline-flex"
           >
@@ -111,7 +111,7 @@ export function Header() {
             ))}
             <li>
               <a
-                href={profile.cvUrl}
+                href={getCvUrl(locale)}
                 download
                 className="block rounded-lg px-3 py-2.5 font-mono text-sm text-accent"
                 onClick={() => setOpen(false)}

@@ -64,7 +64,10 @@ export const profile = {
     fr: "Casablanca, Maroc — Remote / Hybride",
     en: "Casablanca, Morocco — Remote / Hybrid",
   },
-  cvUrl: "/cv.pdf",
+  cvUrl: {
+    fr: "/cv/CV_Badreddine_Oussaih_FR.pdf",
+    en: "/cv/CV_Badreddine_Oussaih_EN.pdf",
+  } satisfies LocalizedString,
   education: {
     school: "EMSI",
     degree: {
@@ -265,6 +268,10 @@ export const profile = {
     "REST APIs",
   ],
 } as const;
+
+export function getCvUrl(locale: Locale): string {
+  return profile.cvUrl[locale];
+}
 
 export const navSections = [
   { id: "hero", label: { fr: "Accueil", en: "Home" } },

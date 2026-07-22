@@ -38,7 +38,7 @@ Remplacer les placeholders :
 - URLs demo/GitHub des projets
 
 Ajouter optionnellement :
-- `public/cv.pdf` — CV téléchargeable
+- `public/cv/` — CV téléchargeables (FR / EN)
 - `public/images/profile.jpg` — photo de profil
 
 ## Variables d'environnement

@@ -67,6 +67,7 @@
     "email": "Email",
     "platforms": "Plateformes",
     "downloadCv": "Télécharger le CV",
+    "cvFormat": "PDF · Version française",
     "copyEmail": "Copier l'email",
     "sendEmail": "Envoyer un email",
     "copied": "Copié !"

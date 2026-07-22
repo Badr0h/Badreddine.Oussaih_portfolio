@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations, useLocale } from "next-intl";
-import { profile } from "@/lib/data/profile";
+import { profile, getCvUrl } from "@/lib/data/profile";
 import { Button } from "@/components/ui/Button";
 import { MeshBackground } from "@/components/ui/MeshBackground";
 import type { Locale } from "@/lib/data/profile";
@@ -64,7 +64,7 @@ export function Hero() {
           <Button href="#contact" variant="secondary">
             {t("ctaContact")}
           </Button>
-          <Button href={profile.cvUrl} variant="ghost" download>
+          <Button href={getCvUrl(locale)} variant="ghost" download>
             {t("ctaCv")} ↓
           </Button>
         </div>
